@@ -1,5 +1,4 @@
 package com.example.sns_project.activity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
@@ -15,6 +14,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 import static com.example.sns_project.Util.showToast;
+
 
 public class LoginActivity extends BasicActivity {
     private FirebaseAuth mAuth;
